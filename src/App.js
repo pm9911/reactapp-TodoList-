@@ -36,7 +36,7 @@ class App extends Component {
       <div className='container-fluid my-5'>
         <div className='row'>
           <div className='col-sm-6 mx-auto text-white shadow-lg p-2'>
-            <h2 className='text-center'>Todo List</h2>
+            <h1 className='text-center'>Mobile details <br />Enter<br/><h3>Mobile Name,Brand,Price,Color,RAM,ROM</h3> </h1>
             <div className='row'>
               <div className='col-9'>
                 <input type='text' className='form-control' placeholder='write your plan' value={this.state.text} 
